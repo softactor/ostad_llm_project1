@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'openrouter'=> [
+        'key'=> env('OPENRUTER_API_KEY'),
+    ],  
+    'gemini'=> [
+        'model'=> env('GEMINI_MODEL'),
+    ],  
+
 ];
